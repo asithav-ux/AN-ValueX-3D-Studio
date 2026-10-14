@@ -1,0 +1,6 @@
+{
+  "name": "ValueX Packaging 3D Studio",
+  "description": "Professional 3D packaging visualization studio for folding cartons, bottles, cans, and flexible pouches with real-time artwork mapping and 4K exports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

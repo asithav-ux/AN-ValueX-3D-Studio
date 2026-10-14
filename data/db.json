@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": "usr_demo_prepress_lead",
+      "name": "Sarah Chen (Packaging Prepress Lead)",
+      "email": "demo@anvaluex.com",
+      "company": "Apex Packaging Design Studio",
+      "passwordHash": "39c0e16c5992717f2bbab8a2f36a9a7332b7a4580f7c96c8c86d65b821cb59dd8e55e4d29060203820b4804772f4a36fce8cd9f7b85c241342cfbbc6642feeb4",
+      "salt": "c81d0dec69bbc4cadbf2044fd575dd38",
+      "isVerified": true,
+      "createdAt": "2026-10-14T05:21:48.871Z",
+      "updatedAt": "2026-10-14T05:21:48.872Z"
+    },
+    {
+      "id": "usr_cc6171245257e351",
+      "name": "Alex Rivera",
+      "email": "alex@example.com",
+      "company": "Rivera Brandworks",
+      "passwordHash": "4dd7194289b68af1a177c4a5330a6d23c765992c2c01b2a9c3eeb2d05c4a7bf3bdc838b17b2c80b03eaa83165900715032b97960b388b7fcc2b24cff00ba169d",
+      "salt": "4596e6e8bcdc9d8d8e9795eeabdf06ee",
+      "isVerified": true,
+      "createdAt": "2026-10-14T05:21:55.565Z",
+      "updatedAt": "2026-10-14T05:21:55.565Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "fc5d44c01df99e706fbdefc70668cc9aad117d0618677a801b582d2626bb227e",
+      "userId": "usr_demo_prepress_lead",
+      "expiresAt": "2026-11-13T05:21:51.665Z",
+      "createdAt": "2026-10-14T05:21:51.665Z"
+    },
+    {
+      "token": "6eca07116bf3020742d0267ebf8efa81d225de9c8af90aea32a204bf3da804e9",
+      "userId": "usr_cc6171245257e351",
+      "expiresAt": "2026-11-13T05:21:55.565Z",
+      "createdAt": "2026-10-14T05:21:55.565Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_alex_01",
+      "name": "Matcha Silk Pouches",
+      "category": "pouch",
+      "modelType": "stand-up-pouch",
+      "displayUnit": "mm",
+      "boxDimensions": {
+        "width": 10,
+        "height": 15,
+        "depth": 6,
+        "paperThickness": 0.4,
+        "creaseRadius": 0.05
+      },
+      "artworks": {},
+      "userId": "usr_cc6171245257e351",
+      "createdAt": "2026-10-14T05:22:05.013Z",
+      "updatedAt": "2026-10-14T05:22:10.132Z",
+      "isPublicShare": true,
+      "shareToken": "sh_bf1b78caff774887fe4f68b8",
+      "shareCreatedAt": "2026-10-14T05:22:10.132Z"
+    }
+  ],
+  "templates": [],
+  "passwordResetTokens": []
+}
